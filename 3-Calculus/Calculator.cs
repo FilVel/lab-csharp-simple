@@ -29,7 +29,6 @@ namespace Calculus
 
         private char? _operation = null;
         private Complex _valueSoFar = null;
-        private bool continuedOperation => _valueSoFar != null;
 
         public Complex Value { get; set; }
 
